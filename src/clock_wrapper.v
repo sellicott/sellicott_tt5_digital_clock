@@ -69,7 +69,6 @@ wire refclk_1hz_stb;
 wire debounce_stb;
 
 wire timeset_stb;
-wire refclk_timeset_stb;
 wire clk_update_stb;
 
 // debounced inputs
@@ -93,20 +92,16 @@ clock_stb_gen #(
 );
 
 reference_clk_stb #(
-	.REF_CLK_HZ(REF_CLK_HZ),
-	.FAST_SET_HZ(FAST_SET_HZ),
-	.SLOW_SET_HZ(SLOW_SET_HZ)
+	.REF_CLK_HZ(REF_CLK_HZ)
 ) refclk_gen_inst (
 	.i_reset_n(i_reset_n),
 	.i_clk(i_clk),
 	.i_en(i_en),
 	
-	.i_fast_set(fast_set_db),
 	.i_refclk(i_refclk),
 
 	.o_refclk_stb(refclk_stb),
-	.o_refclk_1hz_stb(refclk_1hz_stb),
-	.o_refclk_timeset_stb(refclk_timeset_stb)
+	.o_refclk_1hz_stb(refclk_1hz_stb)
 );
 
 sysclk_divider #(
@@ -172,7 +167,7 @@ button_debounce #(
 
 // select between the two timebases
 wire clock_in_1hz_stb     = use_refclk_db ? refclk_1hz_stb : clk_1hz_stb;
-wire clock_in_timeset_stb = use_refclk_db ? refclk_timeset_stb : timeset_stb;
+wire clock_in_timeset_stb = timeset_stb;
 
 basic_clock clock_inst (
 	.i_clk(i_clk),
@@ -195,12 +190,12 @@ clock_to_7seg disp_out (
 	.i_minutes(clock_minutes),
 	.i_hours(clock_hours),
 
-        .o_hours_msb(hours_msb),
-        .o_hours_lsb(hours_lsb),
-        .o_minutes_msb(minutes_msb),
-        .o_minutes_lsb(minutes_lsb),
-        .o_seconds_msb(seconds_msb),
-        .o_seconds_lsb(seconds_lsb)
+    .o_hours_msb(hours_msb),
+    .o_hours_lsb(hours_lsb),
+    .o_minutes_msb(minutes_msb),
+    .o_minutes_lsb(minutes_lsb),
+    .o_seconds_msb(seconds_msb),
+    .o_seconds_lsb(seconds_lsb)
 );
 
 // delay the 1hz strobe by a few clock cycles to generate the shift out strobe
@@ -234,28 +229,28 @@ output_wrapper #(
 	.SYS_CLK_HZ(SYS_CLK_HZ),
 	.SHIFT_CLK_HZ(SHIFT_CLK_HZ)
 ) shift_out_inst (
-    .i_clk(i_clk),
-    .i_reset_n(i_reset_n),
-    .i_en(i_en),
-    .i_start_stb(shift_out_stb_delay[3]),
-    .o_busy(serial_busy),
+	.i_clk(i_clk),
+	.i_reset_n(i_reset_n),
+	.i_en(i_en),
+	.i_start_stb(shift_out_stb_delay[3]),
+	.o_busy(serial_busy),
 
-    .i_hours_msb(hours_msb),
-    .i_hours_lsb(hours_lsb),
-    .i_minutes_msb(minutes_msb),
-    .i_minutes_lsb(minutes_lsb),
-    .i_seconds_msb(seconds_msb),
-    .i_seconds_lsb(seconds_lsb),
-    .i_dp_hours1(1'b0),
-    .i_dp_hours2(1'b0),
-    .i_dp_minutes1(colon_blink),
-    .i_dp_minutes2(colon_blink),
-    .i_dp_seconds1(1'b0),
-    .i_dp_seconds2(1'b0),
+	.i_hours_msb(hours_msb),
+	.i_hours_lsb(hours_lsb),
+	.i_minutes_msb(minutes_msb),
+	.i_minutes_lsb(minutes_lsb),
+	.i_seconds_msb(seconds_msb),
+	.i_seconds_lsb(seconds_lsb),
+	.i_dp_hours1(1'b0),
+	.i_dp_hours2(1'b0),
+	.i_dp_minutes1(colon_blink),
+	.i_dp_minutes2(colon_blink),
+	.i_dp_seconds1(1'b0),
+	.i_dp_seconds2(1'b0),
 
-    .o_serial_data(o_serial_data),
-    .o_serial_latch(o_serial_latch),
-    .o_serial_clk(o_serial_clk)
+	.o_serial_data(o_serial_data),
+	.o_serial_latch(o_serial_latch),
+	.o_serial_clk(o_serial_clk)
 );
 
 endmodule
