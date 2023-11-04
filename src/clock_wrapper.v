@@ -29,7 +29,7 @@ module clock_wrapper (
 parameter SYS_CLK_HZ   = 50_000_000;
 parameter SHIFT_CLK_HZ =  1_000_000;
 parameter REF_CLK_HZ   =     32_768;
-parameter DEBOUNCE_HZ  =      1_000;
+parameter DEBOUNCE_COUNT  =    2500;
 parameter FAST_SET_HZ  = 5;
 parameter SLOW_SET_HZ  = 2;
 parameter DEBOUNCE_SAMPLES = 5;
@@ -104,17 +104,20 @@ reference_clk_stb #(
 	.o_refclk_1hz_stb(refclk_1hz_stb)
 );
 
-sysclk_divider #(
-	.SYS_CLK_HZ(SYS_CLK_HZ),
-	.OUT_CLK_HZ(DEBOUNCE_HZ)
-) debounce_clk_inst (
-    .i_sysclk(i_clk),
-    .i_reset_n(i_reset_n),
-    .i_en(i_en),
-    .o_div(debounce_clk),
-    .o_clk_overflow(debounce_stb)
-);
+/* verilator lint_off UNUSED */
+wire [11:0] debounce_div_count;
+/* verilator lint_on UNUSED */
 
+overflow_counter #(
+	.WIDTH(12),
+	.OVERFLOW(DEBOUNCE_COUNT)
+) refclk_div_inst (
+	.i_sysclk(i_clk),
+	.i_reset_n(i_reset_n),
+	.i_en(refclk_stb),
+	.o_count(debounce_div_count),
+	.o_overflow(debounce_stb)
+);
 
 // debounce the button inputs
 button_debounce #(

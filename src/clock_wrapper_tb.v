@@ -20,7 +20,7 @@ module clock_wrapper_tb (
 parameter SYS_CLK_HZ   = 50_000_000;
 parameter SHIFT_CLK_HZ =  1_000_000;
 parameter REF_CLK_HZ   =      32768;
-parameter DEBOUNCE_HZ  =      1_000;
+parameter DEBOUNCE_COUNT =     2500;
 parameter FAST_SET_HZ  = 5;
 parameter SLOW_SET_HZ  = 2;
 parameter SHIFT_WIDTH  = 6*8;
@@ -44,7 +44,7 @@ clock_wrapper #(
 	.SYS_CLK_HZ(SYS_CLK_HZ),
 	.REF_CLK_HZ(REF_CLK_HZ),
 	.SHIFT_CLK_HZ(SHIFT_CLK_HZ),
-	.DEBOUNCE_HZ(DEBOUNCE_HZ),
+	.DEBOUNCE_COUNT(DEBOUNCE_COUNT),
 	.FAST_SET_HZ(FAST_SET_HZ),
 	.SLOW_SET_HZ(SLOW_SET_HZ),
 	.DEBOUNCE_SAMPLES(DEBOUNCE_SAMPLES)
