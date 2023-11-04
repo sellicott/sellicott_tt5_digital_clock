@@ -19,7 +19,7 @@ module tt_um_digital_clock_sellicott (
 parameter SYS_CLK_HZ   =  5_000_000;
 parameter SHIFT_CLK_HZ =  1_000_000;
 parameter REF_CLK_HZ   =      32768;
-parameter DEBOUNCE_COUNT  =    2500;
+parameter DEBOUNCE_COUNT  =    2047;
 parameter FAST_SET_HZ  = 5;
 parameter SLOW_SET_HZ  = 2;
 parameter DEBOUNCE_SAMPLES = 5;
