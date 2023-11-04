@@ -28,14 +28,14 @@ input  wire        i_clk;
 input  wire        i_reset_n;
 input  wire        i_en;
 input  wire        i_load;
-input  wire [31:0] i_incriment;
+input  wire [24:0] i_incriment;
 output wire        o_div;
 output wire        o_clk_overflow;
 
-reg [31:0] counter   = 0;
-reg [31:0] incriment = 1;
+reg [24:0] counter   = 0;
+reg [24:0] incriment = 1;
 
-assign o_div = counter[31];
+assign o_div = counter[24];
 
 always @(posedge i_clk)
 begin

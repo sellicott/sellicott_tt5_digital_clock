@@ -22,8 +22,8 @@ parameter SYS_CLK_HZ  = 50_000_000;
 parameter FAST_SET_HZ = 5;
 parameter SLOW_SET_HZ = 2;
 
-localparam FAST_INC   = (1<<30)/((SYS_CLK_HZ/FAST_SET_HZ)/4) - 1;
-localparam SLOW_INC   = (1<<30)/((SYS_CLK_HZ/SLOW_SET_HZ)/4) - 1;
+localparam FAST_INC   = (1<<23)/((SYS_CLK_HZ/FAST_SET_HZ)/4) - 1;
+localparam SLOW_INC   = (1<<23)/((SYS_CLK_HZ/SLOW_SET_HZ)/4) - 1;
 
 input  wire i_clk;
 input  wire i_reset_n;
@@ -31,7 +31,7 @@ input  wire i_en;
 input  wire i_fast_set;
 output wire o_timeset_stb;
 
-wire [31:0] incriment = i_fast_set ? FAST_INC : SLOW_INC;
+wire [24:0] incriment = i_fast_set ? FAST_INC[24:0] : SLOW_INC[24:0];
 
 /* verilator lint_off UNUSED */
 wire div;
