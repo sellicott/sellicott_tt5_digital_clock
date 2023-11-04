@@ -116,7 +116,7 @@ sysclk_divider #(
 ) shift_reg_div_inst (
     .i_reset_n(i_reset_n),
     .i_sysclk(i_clk),
-    .i_en(1),
+    .i_en(1'b1),
     .o_div(clk_div),
     .o_clk_overflow(shift_clk_stb)
 );

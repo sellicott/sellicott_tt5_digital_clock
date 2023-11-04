@@ -70,7 +70,7 @@ load_divider divider_inst (
     .i_clk(i_clk),
     .i_reset_n(i_reset_n),
     .i_en(o_refclk_stb),
-    .i_load(1),
+    .i_load(1'b1),
     .i_incriment(incriment),
     .o_div(div),
     .o_clk_overflow(o_refclk_timeset_stb)
