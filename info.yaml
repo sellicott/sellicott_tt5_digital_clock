@@ -14,7 +14,7 @@ project:
   - sysclk_divider.v
   - button_debounce.v
   - basic_clock.v
-  - clk_to_7seg.v
+  - clock_to_7seg.v
   - output_wrapper.v
   - timeset_divider.v
   - load_divider.v
