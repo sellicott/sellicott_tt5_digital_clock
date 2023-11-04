@@ -120,29 +120,9 @@ overflow_counter #(
 );
 
 // debounce the button inputs
-button_debounce #(
-	.NUM_SAMPLES(DEBOUNCE_SAMPLES)
-) fast_set_db_inst (
-	.i_reset_n(i_reset_n),
-	.i_clk(i_clk),
-	.i_en(i_en),
-	.i_sample_stb(debounce_stb),
-
-	.i_button(i_fast_set),
-	.o_button_state(fast_set_db)
-);
-
-button_debounce #(
-	.NUM_SAMPLES(DEBOUNCE_SAMPLES)
-) use_refclk_db_inst (
-	.i_reset_n(i_reset_n),
-	.i_clk(i_clk),
-	.i_en(i_en),
-	.i_sample_stb(debounce_stb),
-
-	.i_button(i_use_refclk),
-	.o_button_state(use_refclk_db)
-);
+// remove debouncing on switch inputs to save area
+assign fast_set_db = i_fast_set;
+assign use_refclk_db = i_use_refclk;
 
 button_debounce #(
 	.NUM_SAMPLES(DEBOUNCE_SAMPLES)
