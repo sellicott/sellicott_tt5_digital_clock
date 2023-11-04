@@ -26,13 +26,13 @@ module clock_wrapper (
 	o_serial_latch,
 	o_serial_clk
 );
-parameter SYS_CLK_HZ   = 50_000_000;
+parameter SYS_CLK_HZ   =  5_000_000;
 parameter SHIFT_CLK_HZ =  1_000_000;
 parameter REF_CLK_HZ   =     32_768;
-parameter DEBOUNCE_COUNT  =    2500;
+parameter DEBOUNCE_COUNT  =    2047;
 parameter FAST_SET_HZ  = 5;
 parameter SLOW_SET_HZ  = 2;
-parameter DEBOUNCE_SAMPLES = 5;
+parameter DEBOUNCE_SAMPLES = 4;
 
 input wire       i_reset_n;
 input wire       i_clk;
@@ -105,11 +105,11 @@ reference_clk_stb #(
 );
 
 /* verilator lint_off UNUSED */
-wire [11:0] debounce_div_count;
+wire [10:0] debounce_div_count;
 /* verilator lint_on UNUSED */
 
 overflow_counter #(
-	.WIDTH(12),
+	.WIDTH(11),
 	.OVERFLOW(DEBOUNCE_COUNT)
 ) refclk_div_inst (
 	.i_sysclk(i_clk),

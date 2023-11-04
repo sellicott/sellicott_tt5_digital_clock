@@ -17,7 +17,7 @@ module clock_wrapper_tb (
 	// testbench outputs
 	o_parallel_data
 );
-parameter SYS_CLK_HZ   = 50_000_000;
+parameter SYS_CLK_HZ   =  5_000_000;
 parameter SHIFT_CLK_HZ =  1_000_000;
 parameter REF_CLK_HZ   =      32768;
 parameter DEBOUNCE_COUNT =     2500;
