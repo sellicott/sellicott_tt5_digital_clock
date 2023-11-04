@@ -3,6 +3,9 @@
  * Top level module for the digital clock deisgn
  * Wraps the actual design for use with the TinyTapeout4 template
  */
+`timescale 1ns / 1ns
+`default_nettype none
+
 module tt_um_digital_clock_sellicott (
     input  wire [7:0] ui_in,    // Dedicated inputs - connected to the input switches
     output wire [7:0] uo_out,   // Dedicated outputs - connected to the 7 segment display
@@ -52,15 +55,15 @@ clock_wrapper #(
 	.DEBOUNCE_SAMPLES(DEBOUNCE_SAMPLES)
 ) clock_inst (
 	.i_clk(clk),
-	.i_refclk(i_refclk),
+	.i_refclk(refclk),
 	.i_reset_n(rst_n),
 	.i_en(ena),
 	.i_use_refclk(use_refclk),
 	.i_fast_set(fast_set),
 	.i_mode(mode),
 
-	.o_serial_data(o_serial_data),
-	.o_serial_latch(o_serial_latch),
-	.o_serial_clk(o_serial_clk)
+	.o_serial_data(serial_data),
+	.o_serial_latch(serial_latch),
+	.o_serial_clk(serial_clk)
 );
 endmodule
