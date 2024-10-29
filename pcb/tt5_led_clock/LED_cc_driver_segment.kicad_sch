@@ -1,0 +1,8535 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f8a77dbc-3802-4873-a9ed-cfa1c894dcbc")
+	(paper "A4")
+	(title_block
+		(title "Tiny Tapeout Digital Clock")
+		(comment 1 "Author: Sam Ellicott")
+	)
+	(lib_symbols
+		(symbol "Device:R_Potentiometer_US"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_Array:ULN2003"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 15.875 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ULN2003"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "darlington transistor array"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* SSOP*4.4x5.2mm*P0.65mm* TSSOP*4.4x5mm*P0.65mm* SOIC*W*5.3x10.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ULN2003_0_1"
+				(rectangle
+					(start -7.62 -12.7)
+					(end 7.62 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.778 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.508 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 5.08) (xy -3.556 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 5.08) (xy 4.064 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.731) (xy -1.016 6.731)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 5.08) (xy -0.508 10.16) (xy 2.921 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 6.096) (xy -3.556 4.064) (xy -2.032 5.08) (xy -3.556 6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.969) (xy -1.016 5.969) (xy -0.508 6.731) (xy 0 5.969)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ULN2003_1_1"
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "I1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "O7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "O6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "O5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "O4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "O3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "I2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "I3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "I4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "I5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "I6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "I7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:MMBT3906"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT3906"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PNP Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBT3906_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBT3906_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:MMDT3904"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMDT3904"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30088.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN/NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?363*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMDT3904_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMDT3904_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MMDT3904_2_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:MMDT3906"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMDT3906"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PNP/PNP Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?363*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMDT3906_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMDT3906_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MMDT3906_2_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VDD"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 125.73 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05cab7cc-f272-4d05-9960-9dc7d88b6b55")
+	)
+	(junction
+		(at 176.53 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "097b42e4-7092-414b-ae2a-7370d1b85c8e")
+	)
+	(junction
+		(at 52.07 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ca1c968-9f10-4a98-8d1e-3b46614eb135")
+	)
+	(junction
+		(at 85.09 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1829092b-39ef-4e1f-bf15-6d604ca33f91")
+	)
+	(junction
+		(at 63.5 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c3d4969-918c-4be0-a99b-d290599e93cc")
+	)
+	(junction
+		(at 297.18 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46068b01-79ab-4219-87e4-930e1467bb9b")
+	)
+	(junction
+		(at 133.35 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47ac6051-125c-4708-9e2a-003b8f861250")
+	)
+	(junction
+		(at 120.65 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4863b85f-a512-414b-b42e-6c27c764f3b2")
+	)
+	(junction
+		(at 163.83 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49cafb9f-c760-474e-9828-a05a83e4b682")
+	)
+	(junction
+		(at 271.78 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a3be70f-3d76-4130-899a-b26426fedd1d")
+	)
+	(junction
+		(at 146.05 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54b21936-6362-4ba1-8d0b-ebd6006ed3f3")
+	)
+	(junction
+		(at 151.13 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fbd5b43-3bc1-46d8-9bf2-8e9ef8c54f28")
+	)
+	(junction
+		(at 222.25 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73bc54fe-ad7f-4f67-9aa5-187350b6a4f8")
+	)
+	(junction
+		(at 101.6 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75ec0473-c6a0-43e5-996f-dd995c35b244")
+	)
+	(junction
+		(at 38.1 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89314f98-61c2-4ce2-9c59-13752a46bd3c")
+	)
+	(junction
+		(at 284.48 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7f70755-fb21-4b17-a33b-4a667c9bb69b")
+	)
+	(junction
+		(at 107.95 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acb31421-059a-4315-bd1d-6602515c374a")
+	)
+	(junction
+		(at 95.25 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afcc4c6f-625d-4ede-91fd-4ea14775b46c")
+	)
+	(junction
+		(at 38.1 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8b88788-d870-4466-b79c-ae485af9844e")
+	)
+	(junction
+		(at 115.57 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1ff722c-bd4a-4014-a6fa-1315dcd75760")
+	)
+	(junction
+		(at 259.08 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c31fbdcf-49a3-46a4-b368-63053eedb641")
+	)
+	(junction
+		(at 236.22 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd811ab7-186a-48cb-baeb-611ab8909e39")
+	)
+	(junction
+		(at 71.12 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf4371ed-1175-4a77-9251-c5333af04afd")
+	)
+	(junction
+		(at 246.38 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e684c09f-1e1e-4e45-9a0a-212927b499da")
+	)
+	(junction
+		(at 24.13 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4438770-bc24-4bc9-99c3-c59812a4a15f")
+	)
+	(junction
+		(at 38.1 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f78471e1-d323-4872-94c7-bd95d9a44089")
+	)
+	(junction
+		(at 138.43 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f813f837-a948-4c6f-a882-0c9d305e2bda")
+	)
+	(wire
+		(pts
+			(xy 184.15 73.66) (xy 184.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003d1e18-8512-4813-b669-677f644526b4")
+	)
+	(wire
+		(pts
+			(xy 38.1 180.34) (xy 38.1 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00668367-34c8-4a0a-9b3b-bf9703379149")
+	)
+	(wire
+		(pts
+			(xy 140.97 142.24) (xy 140.97 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a83858-725d-452a-849e-536bc9e6580a")
+	)
+	(wire
+		(pts
+			(xy 133.35 128.27) (xy 133.35 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b2f463-a734-4bd2-b22d-c1258a5c22d8")
+	)
+	(wire
+		(pts
+			(xy 138.43 59.69) (xy 138.43 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a6bfdf-d4dc-408d-ab87-c4a73e32280b")
+	)
+	(wire
+		(pts
+			(xy 190.5 86.36) (xy 196.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a14be3b-c24f-4a9c-bf49-0e46b68c7f4e")
+	)
+	(wire
+		(pts
+			(xy 66.04 168.91) (xy 68.58 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aac7223-8cb7-4b0c-8179-e9e0af6e5243")
+	)
+	(wire
+		(pts
+			(xy 276.86 78.74) (xy 279.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e92144b-fe28-42e5-92e0-8ecad3f81b59")
+	)
+	(wire
+		(pts
+			(xy 115.57 68.58) (xy 125.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1084a76e-dd0b-4499-ab75-9193ec67e0bd")
+	)
+	(wire
+		(pts
+			(xy 110.49 161.29) (xy 97.79 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139eeeae-63f2-4f87-895b-42d31a2a5f14")
+	)
+	(wire
+		(pts
+			(xy 64.77 31.75) (xy 63.5 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c544fb-2536-4dd3-8d27-1bee77da518d")
+	)
+	(wire
+		(pts
+			(xy 163.83 59.69) (xy 176.53 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f420d8-d4ba-4e4b-8f43-b067ae6478ae")
+	)
+	(wire
+		(pts
+			(xy 24.13 41.91) (xy 24.13 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1591c5c5-4626-47e2-afa9-cb67eba8cd79")
+	)
+	(wire
+		(pts
+			(xy 304.8 73.66) (xy 304.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e1d4e5-637a-43e5-b969-90f7c4771077")
+	)
+	(wire
+		(pts
+			(xy 266.7 81.28) (xy 288.29 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1826ac8c-3ac7-46e4-98e7-f1afe2d73222")
+	)
+	(wire
+		(pts
+			(xy 24.13 144.78) (xy 24.13 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a112b5a-b98b-4892-a35b-6842da41cc8a")
+	)
+	(wire
+		(pts
+			(xy 85.09 137.16) (xy 95.25 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a38452d-b306-49d9-92b4-988f8035db97")
+	)
+	(wire
+		(pts
+			(xy 110.49 154.94) (xy 110.49 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b656e11-0358-4be1-a410-01b84f7e8f41")
+	)
+	(wire
+		(pts
+			(xy 63.5 33.02) (xy 63.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3c66af-d9f1-4d19-8460-c0e2fd6188dd")
+	)
+	(wire
+		(pts
+			(xy 266.7 92.71) (xy 248.92 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce05ce8-f991-4107-aecb-0dcf66a44e42")
+	)
+	(wire
+		(pts
+			(xy 101.6 25.4) (xy 101.6 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ecd04ee-1c81-4884-8dcc-86e3d88aedee")
+	)
+	(wire
+		(pts
+			(xy 236.22 68.58) (xy 236.22 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f652a77-403b-408a-86e4-f47139d179fa")
+	)
+	(wire
+		(pts
+			(xy 146.05 128.27) (xy 146.05 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f6d82c2-1ea2-4949-bf04-13547e633f9b")
+	)
+	(wire
+		(pts
+			(xy 78.74 38.1) (xy 77.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fe71b4f-249c-40e1-afa2-403114009275")
+	)
+	(wire
+		(pts
+			(xy 240.03 105.41) (xy 248.92 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c1644c-1c16-4b6e-8f32-e7a4e04f8429")
+	)
+	(wire
+		(pts
+			(xy 264.16 92.71) (xy 264.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "227bdd01-81c2-4f1a-ac45-f4f3a47fe686")
+	)
+	(wire
+		(pts
+			(xy 189.23 59.69) (xy 189.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2389d672-14f2-4f15-8573-18cbf8d0d0e8")
+	)
+	(wire
+		(pts
+			(xy 96.52 105.41) (xy 99.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f53e0d-ee16-4ffc-b07d-c9fdc547e080")
+	)
+	(wire
+		(pts
+			(xy 261.62 86.36) (xy 261.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2582abbe-91c5-49b6-9a05-d35f75e41fe8")
+	)
+	(wire
+		(pts
+			(xy 151.13 59.69) (xy 163.83 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258baa91-8b6b-4bfc-aa44-79c9d04d5b3d")
+	)
+	(wire
+		(pts
+			(xy 66.04 176.53) (xy 68.58 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260219af-e84a-46ad-a4c9-63fc1ace277d")
+	)
+	(wire
+		(pts
+			(xy 246.38 59.69) (xy 259.08 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276f68b3-4ad1-497f-acbe-ba20867a0e37")
+	)
+	(wire
+		(pts
+			(xy 88.9 171.45) (xy 97.79 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b9a60b-a9b1-4dd5-92f4-27e5780a319e")
+	)
+	(wire
+		(pts
+			(xy 158.75 73.66) (xy 158.75 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f64234-55d1-4f7d-9050-5cff1653cfe3")
+	)
+	(wire
+		(pts
+			(xy 38.1 156.21) (xy 31.75 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8cd486-95df-4615-a360-78d7a9b6ef55")
+	)
+	(wire
+		(pts
+			(xy 248.92 107.95) (xy 264.16 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa12c1a-20c6-44fe-9c67-dc7919d1e3c3")
+	)
+	(wire
+		(pts
+			(xy 101.6 43.18) (xy 101.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4c9df0-60f2-4f29-b0f0-e791d8b9afc9")
+	)
+	(wire
+		(pts
+			(xy 96.52 102.87) (xy 99.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f74bec3-ea1c-4fde-973d-3f38bd228a6c")
+	)
+	(wire
+		(pts
+			(xy 85.09 25.4) (xy 85.09 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa6ad94-9934-4781-8a10-ba66e33d7960")
+	)
+	(wire
+		(pts
+			(xy 179.07 83.82) (xy 184.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3013365a-c81b-4e3d-9254-928b817ca7f8")
+	)
+	(wire
+		(pts
+			(xy 128.27 107.95) (xy 143.51 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ebc104-8e65-4ba6-b441-9f8539ae69bf")
+	)
+	(wire
+		(pts
+			(xy 110.49 154.94) (xy 115.57 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b07ba3-5b96-4b54-91c2-2787d8a0626a")
+	)
+	(wire
+		(pts
+			(xy 266.7 78.74) (xy 276.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ca2694-33a6-4969-99b6-f9406c74562f")
+	)
+	(wire
+		(pts
+			(xy 113.03 154.94) (xy 115.57 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36db8007-4d48-4270-a787-09504289d501")
+	)
+	(wire
+		(pts
+			(xy 52.07 38.1) (xy 63.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373490ff-2d55-4b3e-b43d-d981d02cd9ac")
+	)
+	(wire
+		(pts
+			(xy 135.89 92.71) (xy 128.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373a933a-60a5-4cb8-b08b-e161f3cc62fd")
+	)
+	(wire
+		(pts
+			(xy 102.87 142.24) (xy 102.87 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3869ebf2-999a-4257-ab5d-699385665e7b")
+	)
+	(wire
+		(pts
+			(xy 77.47 33.02) (xy 76.2 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38be4381-da7e-4f31-8686-342473debd8d")
+	)
+	(wire
+		(pts
+			(xy 96.52 100.33) (xy 99.06 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e00d09-ec21-4554-b819-49b39659da0f")
+	)
+	(wire
+		(pts
+			(xy 259.08 59.69) (xy 259.08 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e5491f-912d-458c-9607-768363b025e2")
+	)
+	(wire
+		(pts
+			(xy 133.35 128.27) (xy 146.05 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9826d8-1f3d-4181-874c-66e1f945ddc3")
+	)
+	(wire
+		(pts
+			(xy 288.29 81.28) (xy 292.1 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c50738e-ec51-438a-9c9c-f1f0edb70045")
+	)
+	(wire
+		(pts
+			(xy 146.05 128.27) (xy 158.75 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4fc7f7-f000-48f1-bed6-31b2f1569e5a")
+	)
+	(wire
+		(pts
+			(xy 116.84 154.94) (xy 160.02 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e958082-af57-4aac-9c84-104035e18611")
+	)
+	(wire
+		(pts
+			(xy 88.9 163.83) (xy 97.79 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f09f190-f0b2-4019-87b1-e1e1a99aba98")
+	)
+	(wire
+		(pts
+			(xy 248.92 97.79) (xy 254 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4099cd6b-11ae-405b-b31d-281bec4282e0")
+	)
+	(wire
+		(pts
+			(xy 222.25 25.4) (xy 222.25 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4418f63a-4b27-4e71-9761-9de27e520513")
+	)
+	(wire
+		(pts
+			(xy 176.53 59.69) (xy 176.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451fad24-55ea-41c9-b20d-0f2f04f88dd0")
+	)
+	(wire
+		(pts
+			(xy 120.65 128.27) (xy 120.65 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458d13f9-15a9-4c23-b1cf-93e444edeb93")
+	)
+	(wire
+		(pts
+			(xy 240.03 97.79) (xy 248.92 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459bd457-01f4-4017-9001-927fd962e5ee")
+	)
+	(wire
+		(pts
+			(xy 297.18 59.69) (xy 309.88 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47134a10-5c1c-4a5b-aa92-4ad2e167be3f")
+	)
+	(wire
+		(pts
+			(xy 130.81 81.28) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48177f20-19f4-4e8b-a4ce-09128cf37572")
+	)
+	(wire
+		(pts
+			(xy 115.57 161.29) (xy 97.79 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a52c8d-ba43-4558-aaae-8bfd2a7e72f5")
+	)
+	(wire
+		(pts
+			(xy 128.27 97.79) (xy 133.35 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be2e2b0-ef29-4478-bcff-a5a3dddc9aac")
+	)
+	(wire
+		(pts
+			(xy 97.79 171.45) (xy 107.95 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc36149-21e1-44fd-8423-0bed0c0ab7fa")
+	)
+	(wire
+		(pts
+			(xy 299.72 83.82) (xy 304.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d84947c-243f-470a-9cc3-425810c35463")
+	)
+	(wire
+		(pts
+			(xy 101.6 57.15) (xy 101.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df852ab-bfd8-4763-b5e5-79b855d427b7")
+	)
+	(wire
+		(pts
+			(xy 266.7 87.63) (xy 267.97 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c5d690-37b5-4e7d-b43c-d0f4d4ac5fa5")
+	)
+	(wire
+		(pts
+			(xy 71.12 142.24) (xy 71.12 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "536ad02b-689b-4113-932f-c5c081fd282a")
+	)
+	(wire
+		(pts
+			(xy 261.62 86.36) (xy 266.7 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "543251dd-ffc6-4a4d-b4f2-1bdb45916d2a")
+	)
+	(wire
+		(pts
+			(xy 309.88 59.69) (xy 309.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56df04bb-b9ac-4ca8-88a8-21641eaf0960")
+	)
+	(wire
+		(pts
+			(xy 251.46 81.28) (xy 251.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573b4e2c-0c37-4e04-b808-9fbd4c7f7150")
+	)
+	(wire
+		(pts
+			(xy 107.95 154.94) (xy 115.57 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58294ee9-ae5e-4e0c-99a8-828c52e89133")
+	)
+	(wire
+		(pts
+			(xy 267.97 86.36) (xy 311.15 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59aadc24-c160-4c08-9680-7dcef830e2c7")
+	)
+	(wire
+		(pts
+			(xy 100.33 149.86) (xy 100.33 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ba740a-9ce6-443a-bb0e-a83f8536c964")
+	)
+	(wire
+		(pts
+			(xy 217.17 102.87) (xy 219.71 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfddd38-6d66-4b31-a001-cf962f1f76c0")
+	)
+	(wire
+		(pts
+			(xy 107.95 128.27) (xy 107.95 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd187f4-cb80-4ff0-abdb-bc64dd5d3c60")
+	)
+	(wire
+		(pts
+			(xy 31.75 171.45) (xy 31.75 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec608b0-6dcd-47de-b1c2-0aed355e963d")
+	)
+	(wire
+		(pts
+			(xy 38.1 170.18) (xy 38.1 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5faca73a-1706-46d8-a9c6-c77f27dc94d4")
+	)
+	(wire
+		(pts
+			(xy 52.07 54.61) (xy 52.07 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6027ca26-e909-43ea-9398-8a8ca3974833")
+	)
+	(wire
+		(pts
+			(xy 148.59 152.4) (xy 153.67 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b3572e-0066-4a0e-aa38-1636e25e458a")
+	)
+	(wire
+		(pts
+			(xy 146.05 87.63) (xy 147.32 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636dbc6b-e7d7-4547-8c77-60d6a8058a1a")
+	)
+	(wire
+		(pts
+			(xy 125.73 59.69) (xy 125.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63fb4c18-9ae0-4642-857f-b921880e49db")
+	)
+	(wire
+		(pts
+			(xy 222.25 81.28) (xy 251.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651090ee-f0f1-4dac-9c57-d31d1a6910bc")
+	)
+	(wire
+		(pts
+			(xy 240.03 102.87) (xy 248.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651c49a9-bbde-4b14-8aea-de663882a285")
+	)
+	(wire
+		(pts
+			(xy 100.33 161.29) (xy 97.79 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659fb7d9-8039-4f0a-9d4b-87d08952e477")
+	)
+	(wire
+		(pts
+			(xy 284.48 59.69) (xy 284.48 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d2b15a-43de-4acd-8b2f-5e2c66cf5d1a")
+	)
+	(wire
+		(pts
+			(xy 115.57 142.24) (xy 115.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5ef01f-7894-4cf2-964c-9b1941bf7ba2")
+	)
+	(wire
+		(pts
+			(xy 297.18 59.69) (xy 297.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6005fc-4a51-49ea-aa26-e0a49ae4b2ff")
+	)
+	(wire
+		(pts
+			(xy 115.57 161.29) (xy 115.57 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8cf8c6-6e3b-4bdb-ba33-4513eb76cf71")
+	)
+	(wire
+		(pts
+			(xy 266.7 92.71) (xy 266.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1214f4-97d0-4d07-9da4-2e3ac46004a3")
+	)
+	(wire
+		(pts
+			(xy 279.4 73.66) (xy 279.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b88587d-aad1-4181-92ea-ff132c9f307d")
+	)
+	(wire
+		(pts
+			(xy 259.08 86.36) (xy 266.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb72283-43e1-4b10-971e-c892057bfa10")
+	)
+	(wire
+		(pts
+			(xy 229.87 68.58) (xy 236.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dca33ba-55b2-43ee-bdb8-8d2e1334f41c")
+	)
+	(wire
+		(pts
+			(xy 38.1 43.18) (xy 38.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dcfade2-f492-4c73-9d8b-1245c6e58e47")
+	)
+	(wire
+		(pts
+			(xy 71.12 125.73) (xy 71.12 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f823c80-a79b-4d70-955d-f03870e393a9")
+	)
+	(wire
+		(pts
+			(xy 119.38 110.49) (xy 128.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa7acc2-9af8-4532-958f-e51395cfb4e8")
+	)
+	(wire
+		(pts
+			(xy 125.73 147.32) (xy 128.27 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7080f5a6-5932-4a3e-9444-f2f4beb46d0c")
+	)
+	(wire
+		(pts
+			(xy 113.03 161.29) (xy 113.03 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708ef5de-9305-41ca-8e80-21da5df02a2a")
+	)
+	(wire
+		(pts
+			(xy 222.25 43.18) (xy 222.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f05955-bd80-4f62-a515-61fbe3b913f6")
+	)
+	(wire
+		(pts
+			(xy 88.9 176.53) (xy 97.79 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731aa77c-fb87-4573-ad32-054380e8ff08")
+	)
+	(wire
+		(pts
+			(xy 284.48 59.69) (xy 297.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7368cf32-f224-40fe-8ab7-52664b55d354")
+	)
+	(wire
+		(pts
+			(xy 217.17 105.41) (xy 219.71 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c148c7-0e60-4fcc-bc07-658742183be2")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.1) (xy 52.07 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ea67dd-9788-4bd7-a357-9b59eb28d29f")
+	)
+	(wire
+		(pts
+			(xy 78.74 137.16) (xy 85.09 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781f84bd-032b-43c8-9cbe-dbf865442f4b")
+	)
+	(wire
+		(pts
+			(xy 93.98 38.1) (xy 78.74 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7877da71-ed34-4269-bf5e-59f8878e06a5")
+	)
+	(wire
+		(pts
+			(xy 30.48 144.78) (xy 24.13 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789ab017-e1d2-4847-b4bd-c20007410e64")
+	)
+	(wire
+		(pts
+			(xy 119.38 107.95) (xy 128.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79755da4-d902-4a66-8d5b-218cf4471a08")
+	)
+	(wire
+		(pts
+			(xy 240.03 107.95) (xy 248.92 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb408fd-a8fa-4971-9570-80ed4f8aefc8")
+	)
+	(wire
+		(pts
+			(xy 95.25 128.27) (xy 95.25 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dad4865-2347-4659-adc8-fce00febaa52")
+	)
+	(wire
+		(pts
+			(xy 236.22 25.4) (xy 236.22 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ddb63ac-61cf-4cbb-8730-c6363e21594e")
+	)
+	(wire
+		(pts
+			(xy 163.83 59.69) (xy 163.83 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a3a676-bce3-4f89-a0af-76aa6dff89e3")
+	)
+	(wire
+		(pts
+			(xy 128.27 142.24) (xy 128.27 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b6d2ad-8dc2-481c-b580-c6ae57a1ae06")
+	)
+	(wire
+		(pts
+			(xy 24.13 161.29) (xy 24.13 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b4e594-9c3e-4911-8dc6-8ec56d034879")
+	)
+	(wire
+		(pts
+			(xy 217.17 95.25) (xy 219.71 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d6bd6f-4d96-4af2-a23c-853bccd4ff5d")
+	)
+	(wire
+		(pts
+			(xy 146.05 78.74) (xy 156.21 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859dca66-1a21-4002-a84a-e11e9f7dc13c")
+	)
+	(wire
+		(pts
+			(xy 158.75 128.27) (xy 158.75 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b927a6-6b67-48a4-a7a3-1ff9a501ba9f")
+	)
+	(wire
+		(pts
+			(xy 138.43 59.69) (xy 151.13 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86647a8d-d049-462a-b2b2-5be40fa092f0")
+	)
+	(wire
+		(pts
+			(xy 97.79 176.53) (xy 113.03 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86827bbd-e4e9-4a4e-ab57-b6a5daecff79")
+	)
+	(wire
+		(pts
+			(xy 217.17 97.79) (xy 219.71 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88924dfa-6c3c-4e22-8f22-7ed952107a3d")
+	)
+	(wire
+		(pts
+			(xy 217.17 110.49) (xy 219.71 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f31468-14ba-4e65-aac6-c37b8b6e3ef2")
+	)
+	(wire
+		(pts
+			(xy 38.1 49.53) (xy 44.45 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a0f0794-9abf-46da-be03-4e0acc9ad0d9")
+	)
+	(wire
+		(pts
+			(xy 130.81 92.71) (xy 128.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7f6293-8925-44ab-b594-6d8f255cc7ee")
+	)
+	(wire
+		(pts
+			(xy 38.1 149.86) (xy 38.1 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8abe5ddd-d1a4-4745-b968-0257d9e056e8")
+	)
+	(wire
+		(pts
+			(xy 153.67 142.24) (xy 153.67 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba5da4e-81f4-4153-b237-4e7c73e7dab6")
+	)
+	(wire
+		(pts
+			(xy 115.57 149.86) (xy 137.16 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c005f39-c4da-4d1c-9dd3-78795258075b")
+	)
+	(wire
+		(pts
+			(xy 217.17 100.33) (xy 219.71 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6ecb98-4dfb-4ca2-9c1f-f272c824366e")
+	)
+	(wire
+		(pts
+			(xy 143.51 92.71) (xy 143.51 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee2a161-14c6-4288-bf2e-134b73f7435e")
+	)
+	(wire
+		(pts
+			(xy 217.17 107.95) (xy 219.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3fdffb-c3e5-47d7-9c5d-e114d671b592")
+	)
+	(wire
+		(pts
+			(xy 240.03 95.25) (xy 248.92 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928d381c-7e2b-4e9c-872c-5123ff845580")
+	)
+	(wire
+		(pts
+			(xy 76.2 31.75) (xy 64.77 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93594712-d011-4f2a-8b71-f7b628905bb5")
+	)
+	(wire
+		(pts
+			(xy 138.43 92.71) (xy 138.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e33e83-1933-4f47-bc4a-781535d81901")
+	)
+	(wire
+		(pts
+			(xy 259.08 59.69) (xy 271.78 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94083b6d-c422-44be-8551-e3b30129dbbe")
+	)
+	(wire
+		(pts
+			(xy 66.04 171.45) (xy 68.58 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94bf13de-6739-4f12-bb9a-1a5111f72680")
+	)
+	(wire
+		(pts
+			(xy 222.25 73.66) (xy 222.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955fb440-a413-49c2-a6f0-98348de6d00c")
+	)
+	(wire
+		(pts
+			(xy 147.32 86.36) (xy 190.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96227968-9d28-4737-9da6-fd65b90af564")
+	)
+	(wire
+		(pts
+			(xy 95.25 128.27) (xy 107.95 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a46e45-7dc2-4199-a586-1cf428f499c0")
+	)
+	(wire
+		(pts
+			(xy 256.54 86.36) (xy 256.54 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adb49d1-3122-4a5b-b614-86557eb66785")
+	)
+	(wire
+		(pts
+			(xy 119.38 105.41) (xy 128.27 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b64c252-f102-4a28-9963-81dc7595cb45")
+	)
+	(wire
+		(pts
+			(xy 96.52 97.79) (xy 99.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7aad52-5244-436d-aa44-c9ccc7e7dd3f")
+	)
+	(wire
+		(pts
+			(xy 146.05 83.82) (xy 179.07 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cefa200-6e14-4f08-9467-1f67d9d9fc52")
+	)
+	(wire
+		(pts
+			(xy 52.07 38.1) (xy 52.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d556daf-cb72-4c3e-9893-26715649027b")
+	)
+	(wire
+		(pts
+			(xy 71.12 125.73) (xy 77.47 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d630da0-45dd-47f5-bdf2-0f6ce21767c5")
+	)
+	(wire
+		(pts
+			(xy 240.03 110.49) (xy 248.92 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ece3ae9-83e2-427b-94c6-daaa77d8c2e6")
+	)
+	(wire
+		(pts
+			(xy 115.57 156.21) (xy 116.84 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a24a815b-2b68-430a-a212-8ea27f7b154e")
+	)
+	(wire
+		(pts
+			(xy 71.12 43.18) (xy 71.12 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f24b14-7b60-4f75-b116-9810ff1b8816")
+	)
+	(wire
+		(pts
+			(xy 146.05 81.28) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d4cf8a-b94f-4312-8c08-23a4f99263be")
+	)
+	(wire
+		(pts
+			(xy 38.1 25.4) (xy 38.1 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d7a230-ded1-4bdc-917c-6da1b579b56c")
+	)
+	(wire
+		(pts
+			(xy 266.7 83.82) (xy 299.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7256706-22a7-4447-893e-8ec29a90e3c4")
+	)
+	(wire
+		(pts
+			(xy 97.79 166.37) (xy 102.87 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b9d68a-fbbe-4b8d-b9f5-abe0417be6cd")
+	)
+	(wire
+		(pts
+			(xy 24.13 25.4) (xy 24.13 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a850354c-615b-45d2-9f3b-476e13af6ea2")
+	)
+	(wire
+		(pts
+			(xy 71.12 149.86) (xy 100.33 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab58ac94-e905-411d-8f79-0bba478f1981")
+	)
+	(wire
+		(pts
+			(xy 222.25 57.15) (xy 228.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac80dba4-c6d9-4afd-a625-cbdbd072b243")
+	)
+	(wire
+		(pts
+			(xy 271.78 59.69) (xy 271.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9c03f1-9252-48ab-ad9c-1c4d5ea54edb")
+	)
+	(wire
+		(pts
+			(xy 105.41 154.94) (xy 115.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1f28d5-17ee-46f2-a01d-7ede50077e8d")
+	)
+	(wire
+		(pts
+			(xy 167.64 81.28) (xy 171.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe45488-74a5-4ffb-b31a-b77d6b3ab724")
+	)
+	(wire
+		(pts
+			(xy 66.04 163.83) (xy 68.58 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01d8242-5d2f-4bc9-aa0a-26b6d394b986")
+	)
+	(wire
+		(pts
+			(xy 109.22 68.58) (xy 115.57 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f50723-23ac-4405-b0ab-17fa3123fe75")
+	)
+	(wire
+		(pts
+			(xy 196.85 73.66) (xy 196.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7cd1a1c-5d5d-44c1-a38a-c5059ca00dc8")
+	)
+	(wire
+		(pts
+			(xy 115.57 25.4) (xy 115.57 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9705d9f-4d73-4638-ba8d-eaa7fa28caf0")
+	)
+	(wire
+		(pts
+			(xy 292.1 73.66) (xy 292.1 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba660d06-5efe-408a-bccd-277d03e38b83")
+	)
+	(wire
+		(pts
+			(xy 77.47 36.83) (xy 77.47 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba90b428-d906-4cd4-b36a-49ff6e52ff2e")
+	)
+	(wire
+		(pts
+			(xy 115.57 68.58) (xy 115.57 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf654d1-54e5-419b-b7aa-2685900e578a")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 130.81 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7002a8-33d6-42aa-9040-0c42f1ea3496")
+	)
+	(wire
+		(pts
+			(xy 137.16 149.86) (xy 140.97 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba948d5-0c11-4e1f-ba25-f5e114322610")
+	)
+	(wire
+		(pts
+			(xy 115.57 147.32) (xy 125.73 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8ac82b-7223-411c-bbce-097786df4872")
+	)
+	(wire
+		(pts
+			(xy 119.38 95.25) (xy 128.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca2043b-3904-4ecb-96cd-541c10bfb919")
+	)
+	(wire
+		(pts
+			(xy 254 73.66) (xy 254 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf71742c-6cc8-4719-bbea-3b837dd8a34d")
+	)
+	(wire
+		(pts
+			(xy 88.9 173.99) (xy 97.79 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b93817-ce77-49c4-aeb5-644e758b1b11")
+	)
+	(wire
+		(pts
+			(xy 146.05 92.71) (xy 146.05 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c92cf5-cf5a-4262-a3fa-3f606c76150c")
+	)
+	(wire
+		(pts
+			(xy 160.02 154.94) (xy 166.37 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cb418a-7a9e-4ee2-be06-9c84b544644c")
+	)
+	(wire
+		(pts
+			(xy 271.78 59.69) (xy 284.48 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a753c8-3794-41dd-91dd-a1eaebf9805a")
+	)
+	(wire
+		(pts
+			(xy 246.38 59.69) (xy 246.38 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5206dfc-108f-42ac-83b3-cf36a561e419")
+	)
+	(wire
+		(pts
+			(xy 264.16 86.36) (xy 266.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5821c2f-3b7a-4105-a59e-580ac4b38513")
+	)
+	(wire
+		(pts
+			(xy 140.97 86.36) (xy 140.97 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63767a6-fb74-476f-9a25-029a4edf3454")
+	)
+	(wire
+		(pts
+			(xy 143.51 86.36) (xy 146.05 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65116a8-7e69-42ed-a952-13c8a82e3cb5")
+	)
+	(wire
+		(pts
+			(xy 151.13 59.69) (xy 151.13 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c8e3a9-32e5-4214-ad9d-d5fd402d88d5")
+	)
+	(wire
+		(pts
+			(xy 115.57 152.4) (xy 148.59 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d67421-f22b-417a-a767-e96bbcfe6722")
+	)
+	(wire
+		(pts
+			(xy 38.1 156.21) (xy 38.1 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c971ac97-935e-461f-8d6b-1ead0dd1180c")
+	)
+	(wire
+		(pts
+			(xy 38.1 171.45) (xy 38.1 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7a0b19-8bee-4b06-9774-00c2c0710a2c")
+	)
+	(wire
+		(pts
+			(xy 256.54 92.71) (xy 248.92 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbbbe82c-85d7-4e8c-aae8-90f99cabf45a")
+	)
+	(wire
+		(pts
+			(xy 120.65 128.27) (xy 133.35 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc77bab8-fad9-4980-aa61-e55c5ce316fc")
+	)
+	(wire
+		(pts
+			(xy 222.25 57.15) (xy 222.25 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf57ca4d-5f05-46f0-ac1d-4ee9134afafa")
+	)
+	(wire
+		(pts
+			(xy 266.7 73.66) (xy 266.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d8edd3-2e46-4bc0-a144-b5d0fe73c64a")
+	)
+	(wire
+		(pts
+			(xy 140.97 92.71) (xy 128.27 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4023779-281f-4127-9637-e76f99a8ab5c")
+	)
+	(wire
+		(pts
+			(xy 119.38 100.33) (xy 128.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d564254b-2b8e-4d6c-87ef-cf6ab759c9c1")
+	)
+	(wire
+		(pts
+			(xy 256.54 86.36) (xy 266.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ced724-46fd-4dab-b295-b1755bce2a94")
+	)
+	(wire
+		(pts
+			(xy 66.04 179.07) (xy 68.58 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d639df14-5d9c-400c-b0c0-b2c6cafbf844")
+	)
+	(wire
+		(pts
+			(xy 96.52 107.95) (xy 99.06 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b6f028-e23f-4b43-be9a-1f77d29d7d28")
+	)
+	(wire
+		(pts
+			(xy 96.52 95.25) (xy 99.06 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78de569-6805-46e6-ad4d-40db830c177d")
+	)
+	(wire
+		(pts
+			(xy 31.75 176.53) (xy 34.29 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d1387e-b54a-4f8b-9691-071163ddb0ce")
+	)
+	(wire
+		(pts
+			(xy 71.12 25.4) (xy 71.12 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8189b63-c033-44d0-920b-e3c48de2f199")
+	)
+	(wire
+		(pts
+			(xy 251.46 92.71) (xy 248.92 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d2dad6-2e54-4c94-91ac-cbde18da1219")
+	)
+	(wire
+		(pts
+			(xy 105.41 154.94) (xy 105.41 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e16c48-de99-4762-abef-39b29a3392bc")
+	)
+	(wire
+		(pts
+			(xy 138.43 86.36) (xy 146.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f8db2b-daac-48b4-ac8c-cfb34335f4ed")
+	)
+	(wire
+		(pts
+			(xy 101.6 57.15) (xy 107.95 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da37d291-5f85-4f2c-bfce-c53131572a67")
+	)
+	(wire
+		(pts
+			(xy 107.95 161.29) (xy 107.95 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabb02ee-c240-4f6b-8261-6d7e549acd7c")
+	)
+	(wire
+		(pts
+			(xy 261.62 92.71) (xy 248.92 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbdc0e03-ff99-4e55-847d-818920a66aec")
+	)
+	(wire
+		(pts
+			(xy 119.38 97.79) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbeec99f-4651-46d7-811e-e5b961aa214a")
+	)
+	(wire
+		(pts
+			(xy 259.08 92.71) (xy 259.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3ff5af-0db0-41df-9f40-831470ec9f51")
+	)
+	(wire
+		(pts
+			(xy 135.89 86.36) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd13d422-33a0-4e0d-90ad-5786138d962a")
+	)
+	(wire
+		(pts
+			(xy 311.15 86.36) (xy 317.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd81df7c-93a6-444b-be43-8cf5ccd280b9")
+	)
+	(wire
+		(pts
+			(xy 166.37 142.24) (xy 166.37 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddadee19-157c-420b-82e1-c79f03802ac4")
+	)
+	(wire
+		(pts
+			(xy 31.75 171.45) (xy 38.1 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea0905f-3875-43f6-a772-34edee82b29a")
+	)
+	(wire
+		(pts
+			(xy 146.05 92.71) (xy 128.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e432709b-a1e6-4d2c-8eb0-f5194ec132f6")
+	)
+	(wire
+		(pts
+			(xy 171.45 73.66) (xy 171.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e433daf4-8475-41cd-ab5e-41f95b83edaa")
+	)
+	(wire
+		(pts
+			(xy 176.53 59.69) (xy 189.23 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b2ab6f-e093-4139-a591-56ab55e3b653")
+	)
+	(wire
+		(pts
+			(xy 85.09 137.16) (xy 85.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b9cc50-b01e-4f2d-aa99-a599d89a2a2e")
+	)
+	(wire
+		(pts
+			(xy 107.95 128.27) (xy 120.65 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8238796-f6cb-43ec-925f-99b531a82923")
+	)
+	(wire
+		(pts
+			(xy 66.04 166.37) (xy 68.58 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8eec435-bc88-4d11-8a63-1c7bbf1682c8")
+	)
+	(wire
+		(pts
+			(xy 156.21 78.74) (xy 158.75 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9157d8f-2d49-4cbc-884f-7bee94d4da11")
+	)
+	(wire
+		(pts
+			(xy 248.92 102.87) (xy 259.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e953c8a6-252a-4158-81d1-becec5fc8a0b")
+	)
+	(wire
+		(pts
+			(xy 66.04 173.99) (xy 68.58 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9d81f0b-a94a-4b52-9e7a-bb95623aaf18")
+	)
+	(wire
+		(pts
+			(xy 88.9 166.37) (xy 97.79 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb834997-7135-4a79-8eb3-e271314ac866")
+	)
+	(wire
+		(pts
+			(xy 38.1 49.53) (xy 38.1 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecfbb0ca-4b05-4c64-b349-9915c8314365")
+	)
+	(wire
+		(pts
+			(xy 135.89 86.36) (xy 146.05 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecfd4160-cba9-45e8-846e-86e91fcebd34")
+	)
+	(wire
+		(pts
+			(xy 96.52 110.49) (xy 99.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed72283c-6401-43b5-b110-16fe11ff4451")
+	)
+	(wire
+		(pts
+			(xy 125.73 59.69) (xy 138.43 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edab139f-04e4-406a-89ba-2077efda1c44")
+	)
+	(wire
+		(pts
+			(xy 317.5 73.66) (xy 317.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eebd3d3f-22bd-421d-b235-b5769272634c")
+	)
+	(wire
+		(pts
+			(xy 236.22 68.58) (xy 246.38 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14099db-fb87-43ee-9bf8-b09bfca39c23")
+	)
+	(wire
+		(pts
+			(xy 240.03 100.33) (xy 248.92 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f205c990-b2bc-4f42-b0a9-606cbd103af9")
+	)
+	(wire
+		(pts
+			(xy 133.35 73.66) (xy 133.35 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2647676-007e-4003-8c80-172119104a9a")
+	)
+	(wire
+		(pts
+			(xy 140.97 86.36) (xy 146.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f368ccc1-c264-4b93-9b99-af4c96d33730")
+	)
+	(wire
+		(pts
+			(xy 88.9 168.91) (xy 97.79 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a1f6e1-c000-4881-88ec-1d6a5a7b5e8f")
+	)
+	(wire
+		(pts
+			(xy 146.05 73.66) (xy 146.05 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f406d0f2-05de-48b9-8bdd-b77c31ecb9c9")
+	)
+	(wire
+		(pts
+			(xy 101.6 73.66) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88306b6-fad5-4955-ad76-3672e0cc6076")
+	)
+	(wire
+		(pts
+			(xy 128.27 102.87) (xy 138.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ebab3a-2d2f-48a7-b5df-308a3f2955f7")
+	)
+	(wire
+		(pts
+			(xy 119.38 102.87) (xy 128.27 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb0dd952-8bfe-4e03-8d9a-aba30ed9b64a")
+	)
+	(wire
+		(pts
+			(xy 88.9 179.07) (xy 97.79 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce65028-3e75-4e8b-b9ba-4df473ba3840")
+	)
+	(wire
+		(pts
+			(xy 105.41 161.29) (xy 97.79 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd6b271d-c3b0-4c8d-b5bd-7137d6ffe15f")
+	)
+	(hierarchical_label "s1c"
+		(shape input)
+		(at 66.04 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a64b460-6512-44cf-9808-14c0a1fb2e5f")
+	)
+	(hierarchical_label "s1g"
+		(shape input)
+		(at 217.17 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b0ca312-7979-4c00-8dae-d927bc7b796d")
+	)
+	(hierarchical_label "s1a"
+		(shape input)
+		(at 66.04 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "406406c3-0f68-49db-b11e-bf502fec821b")
+	)
+	(hierarchical_label "s1f"
+		(shape input)
+		(at 96.52 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "444d8623-2cd4-47c4-8d7e-c77697fa1602")
+	)
+	(hierarchical_label "s1g"
+		(shape input)
+		(at 96.52 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59cc5098-d383-476c-b3cb-bd26cbbbac3f")
+	)
+	(hierarchical_label "s1d"
+		(shape input)
+		(at 217.17 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6404bebf-c359-40a4-b6f3-00c0ecd3cfc7")
+	)
+	(hierarchical_label "s1a"
+		(shape input)
+		(at 96.52 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6beb3026-4602-4bd7-a538-995cf52cd775")
+	)
+	(hierarchical_label "s1b"
+		(shape input)
+		(at 66.04 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c336706-e4e2-4a65-9996-c038c3568d5f")
+	)
+	(hierarchical_label "s1c"
+		(shape input)
+		(at 217.17 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8909bbc3-64a1-417d-8684-625929b295f2")
+	)
+	(hierarchical_label "s1e"
+		(shape input)
+		(at 66.04 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b818c57-42b1-484c-8828-c32ed84982c6")
+	)
+	(hierarchical_label "s1d"
+		(shape input)
+		(at 96.52 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac81aea0-9ffd-4a16-9bab-2ddec78c1f99")
+	)
+	(hierarchical_label "s1b"
+		(shape input)
+		(at 217.17 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afd08618-5fc3-49f3-aed1-2238155053b4")
+	)
+	(hierarchical_label "s1a"
+		(shape input)
+		(at 217.17 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3a136eb-e1b9-474d-9b1c-a259dc9c0c98")
+	)
+	(hierarchical_label "s1c"
+		(shape input)
+		(at 96.52 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb1dfe6a-486f-4641-948b-b3a9b3e208d8")
+	)
+	(hierarchical_label "s1b"
+		(shape input)
+		(at 96.52 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0f5719f-2def-4992-8c68-94d723ddf534")
+	)
+	(hierarchical_label "s1f"
+		(shape input)
+		(at 66.04 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c30d7e22-7a86-4764-9d26-50bae3487811")
+	)
+	(hierarchical_label "s1e"
+		(shape input)
+		(at 217.17 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb45a152-5f95-469c-9f14-656eba5f702c")
+	)
+	(hierarchical_label "s1g"
+		(shape input)
+		(at 66.04 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0f672d6-c980-48f1-8ba1-d264a79b1bb8")
+	)
+	(hierarchical_label "s1f"
+		(shape input)
+		(at 217.17 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d91c6eb7-4d16-4cea-9107-4b2328ac81c8")
+	)
+	(hierarchical_label "s1d"
+		(shape input)
+		(at 66.04 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb1c9f80-2fea-4b61-89ca-2c1921195af6")
+	)
+	(hierarchical_label "s1e"
+		(shape input)
+		(at 96.52 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb8e0967-805b-4611-9184-f1a5c6fe1d1b")
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3906")
+		(at 68.58 38.1 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0023b387-fc4d-40cd-ac00-1d50b5ae3a5c")
+		(property "Reference" "Q3"
+			(at 63.754 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3906"
+			(at 60.198 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 73.66 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eb727282-7e8e-4276-a6b7-52a251f29e6b")
+		)
+		(pin "1"
+			(uuid "deb72b58-d4fe-41e3-ae77-88f8189e314c")
+		)
+		(pin "2"
+			(uuid "c08f6393-443c-4d28-b772-ec0079cbe459")
+		)
+		(instances
+			(project ""
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 130.81 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "030fd94a-c67d-4795-8bc9-8214ded567e9")
+		(property "Reference" "Q10"
+			(at 126.492 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 122.174 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 135.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 130.81 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 130.81 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5a387259-b497-4c30-9d79-3570dfd6bc7c")
+		)
+		(pin "6"
+			(uuid "4259662d-9c80-42a6-a3b5-94ac16a5bf79")
+		)
+		(pin "3"
+			(uuid "8c2de225-4049-429e-a340-183e4dea69e9")
+		)
+		(pin "1"
+			(uuid "7d2a9571-d56c-4b8f-80e5-c34a1e6898e6")
+		)
+		(pin "2"
+			(uuid "9f6a11eb-4b14-4732-adef-0294b8bfb00c")
+		)
+		(pin "5"
+			(uuid "27160def-5212-4f37-8643-fd7b48392763")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 264.16 68.58 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "034605b3-9df5-4eea-9cd1-253eb2ff403b")
+		(property "Reference" "Q15"
+			(at 259.588 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 269.24 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 269.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 264.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 264.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "82eac958-73a5-48fa-bbb9-42fe61afc373")
+		)
+		(pin "6"
+			(uuid "dd01a8b6-cb7f-4923-82cc-37172ad2b386")
+		)
+		(pin "3"
+			(uuid "afdeff6e-2dd2-48a1-8db6-c9ed86293778")
+		)
+		(pin "1"
+			(uuid "3fb45f91-b7fe-49fb-8a97-efdd97506512")
+		)
+		(pin "2"
+			(uuid "f1f2708c-f4ea-4d55-ad01-67efd2305977")
+		)
+		(pin "5"
+			(uuid "fdd1c429-7c55-49ce-ae20-e7fd6b3f9124")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q15")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_US")
+		(at 38.1 176.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06258be5-a362-4603-89a4-4710411363eb")
+		(property "Reference" "RV1"
+			(at 40.64 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 40.64 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer, US symbol"
+			(at 38.1 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a8c4394-e211-4076-825d-0a741bb9f96a")
+		)
+		(pin "3"
+			(uuid "7e3106a7-b824-4f36-bf30-8e94e484a4d3")
+		)
+		(pin "1"
+			(uuid "908c1f45-7a3f-4f6a-b9fb-393c2f5f85a9")
+		)
+		(instances
+			(project ""
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3906")
+		(at 219.71 38.1 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0776904b-131c-470a-9b47-a98241abf820")
+		(property "Reference" "Q13"
+			(at 214.884 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3906"
+			(at 211.328 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 224.79 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
+			(at 219.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+			(at 219.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b2a5baab-5956-404b-b0e6-6dcea3219a0d")
+		)
+		(pin "1"
+			(uuid "2c9e2562-353b-4906-95f0-7a44adb38a08")
+		)
+		(pin "2"
+			(uuid "611f131e-6414-422d-a8d0-cadfba8c480a")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 222.25 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09be4507-7ca4-4ee8-b9a0-c256f76329a8")
+		(property "Reference" "#PWR014"
+			(at 222.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 222.25 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 222.25 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0866ded5-4672-4a29-b8f9-dd55ca02a45e")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 113.03 57.15 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e218f11-adfc-4c39-a4ce-0671bea990fd")
+		(property "Reference" "Q9"
+			(at 108.458 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 118.11 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 113.03 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 113.03 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d3bd6ab5-1870-4c0d-94bc-7490418303c1")
+		)
+		(pin "6"
+			(uuid "dd01a8b6-cb7f-4923-82cc-37172ad2b388")
+		)
+		(pin "3"
+			(uuid "284a6ce5-9fab-472f-93dc-43de1b39155e")
+		)
+		(pin "1"
+			(uuid "3fb45f91-b7fe-49fb-8a97-efdd97506514")
+		)
+		(pin "2"
+			(uuid "f1f2708c-f4ea-4d55-ad01-67efd2305979")
+		)
+		(pin "5"
+			(uuid "0d588796-bd66-4a01-9195-4d65356785e1")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q9")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 101.6 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e75dc0b-5155-403b-81af-1416926bf0fb")
+		(property "Reference" "#PWR012"
+			(at 101.6 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 101.6 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 101.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e2fab11-7228-43f2-b73a-061851b54163")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 276.86 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0eb698b2-5753-4a32-956b-d92e118b67d2")
+		(property "Reference" "Q16"
+			(at 272.542 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 268.224 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 281.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 276.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 276.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5a387259-b497-4c30-9d79-3570dfd6bc7a")
+		)
+		(pin "6"
+			(uuid "2d2ed257-105f-46a9-b5bf-ccfe390c91c6")
+		)
+		(pin "3"
+			(uuid "8c2de225-4049-429e-a340-183e4dea69e7")
+		)
+		(pin "1"
+			(uuid "f74f6235-74ff-4117-9a77-81636b0e3800")
+		)
+		(pin "2"
+			(uuid "3c6d0da3-160e-455f-ab3e-a71f1ccb204a")
+		)
+		(pin "5"
+			(uuid "27160def-5212-4f37-8643-fd7b48392761")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 85.09 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f178b4c-6fa9-4603-99a4-e2e6e1baa2d1")
+		(property "Reference" "#PWR011"
+			(at 85.09 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 85.09 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 85.09 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4ce4ab2-db9b-46b2-80f0-7c035cd985b8")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11c6dacd-d89c-4f2d-bcfb-0dac462fc01d")
+		(property "Reference" "#PWR015"
+			(at 229.87 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1761213c-c5a9-4f47-bd2e-24706694d28f")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 113.03 137.16 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ccd76b4-4e7c-45cb-9acb-646728e78a85")
+		(property "Reference" "Q5"
+			(at 108.458 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 118.11 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 118.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 113.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 113.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "86555d86-dc12-425e-8f57-3116cac68cf4")
+		)
+		(pin "6"
+			(uuid "dd01a8b6-cb7f-4923-82cc-37172ad2b385")
+		)
+		(pin "3"
+			(uuid "5969b5d8-424e-41b3-836e-7df92fc4dc0e")
+		)
+		(pin "1"
+			(uuid "3fb45f91-b7fe-49fb-8a97-efdd97506511")
+		)
+		(pin "2"
+			(uuid "f1f2708c-f4ea-4d55-ad01-67efd2305976")
+		)
+		(pin "5"
+			(uuid "c91e2bee-7bf9-4d9b-ae77-a99d80bdcd34")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 184.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "204b448c-08c1-41f1-b11f-6268e808d383")
+		(property "Reference" "#PWR05"
+			(at 52.07 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0110c7d2-d4f4-4eaa-9fd9-8b12d5506361")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 224.79 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "241b3d65-b37d-4399-856e-d7b2294c6a48")
+		(property "Reference" "Q14"
+			(at 229.108 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 233.426 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 219.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 224.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 224.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5a387259-b497-4c30-9d79-3570dfd6bc7b")
+		)
+		(pin "6"
+			(uuid "8b2e9230-0ffd-4393-a949-f8f4d4de4095")
+		)
+		(pin "3"
+			(uuid "8c2de225-4049-429e-a340-183e4dea69e8")
+		)
+		(pin "1"
+			(uuid "0a76031a-74d9-4205-b494-639d25961c8a")
+		)
+		(pin "2"
+			(uuid "649661d6-e9a7-4c74-bbab-49e6c8520ff2")
+		)
+		(pin "5"
+			(uuid "27160def-5212-4f37-8643-fd7b48392762")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 115.57 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2938cf0e-61a3-4376-a1e9-b09cff2b1988")
+		(property "Reference" "#PWR013"
+			(at 115.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 115.57 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 115.57 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fe7e64b-5c8f-4fa7-a0e7-c934616288a4")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 49.53 49.53 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29da7083-fc4b-470a-b15d-c11cd730aca8")
+		(property "Reference" "Q2"
+			(at 44.704 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 54.61 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 54.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e583bde6-d720-4b5b-9901-fce8f53956de")
+		)
+		(pin "3"
+			(uuid "d22bffe3-c977-4017-980a-552795bb5ae1")
+		)
+		(pin "4"
+			(uuid "8c103263-5cfb-4589-bc09-829293d8cd64")
+		)
+		(pin "2"
+			(uuid "48028b73-a4d4-4635-9aad-a9685d82a5c7")
+		)
+		(pin "6"
+			(uuid "27abc1ab-8a5c-4428-821a-fd6ab77bfd3a")
+		)
+		(pin "1"
+			(uuid "622f51e3-e6dd-48d1-8f1e-e9259eeda1ab")
+		)
+		(instances
+			(project ""
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 40.64 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ac37282-984d-406e-80cb-010ff5162f5e")
+		(property "Reference" "Q2"
+			(at 44.704 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 50.546 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 35.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 40.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 40.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e583bde6-d720-4b5b-9901-fce8f53956de")
+		)
+		(pin "3"
+			(uuid "d22bffe3-c977-4017-980a-552795bb5ae1")
+		)
+		(pin "4"
+			(uuid "8c103263-5cfb-4589-bc09-829293d8cd64")
+		)
+		(pin "2"
+			(uuid "48028b73-a4d4-4635-9aad-a9685d82a5c7")
+		)
+		(pin "6"
+			(uuid "27abc1ab-8a5c-4428-821a-fd6ab77bfd3a")
+		)
+		(pin "1"
+			(uuid "622f51e3-e6dd-48d1-8f1e-e9259eeda1ab")
+		)
+		(instances
+			(project ""
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 82.55 125.73 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b9f01e8-8e66-48a0-b157-ede5bb790bac")
+		(property "Reference" "Q4"
+			(at 77.978 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 87.63 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 82.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 82.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5a387259-b497-4c30-9d79-3570dfd6bc7a")
+		)
+		(pin "6"
+			(uuid "dd01a8b6-cb7f-4923-82cc-37172ad2b385")
+		)
+		(pin "3"
+			(uuid "8c2de225-4049-429e-a340-183e4dea69e7")
+		)
+		(pin "1"
+			(uuid "3fb45f91-b7fe-49fb-8a97-efdd97506511")
+		)
+		(pin "2"
+			(uuid "f1f2708c-f4ea-4d55-ad01-67efd2305976")
+		)
+		(pin "5"
+			(uuid "27160def-5212-4f37-8643-fd7b48392761")
+		)
+		(instances
+			(project ""
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_Array:ULN2003")
+		(at 78.74 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31c0bd2d-0839-43e2-8451-461830c11731")
+		(property "Reference" "U8"
+			(at 84.074 183.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ULN2003"
+			(at 78.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+			(at 78.74 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af5fe1a8-ec69-4101-8c8f-9ca46d785694")
+		)
+		(pin "4"
+			(uuid "936d5645-ee90-44fc-a51d-4729a88cff50")
+		)
+		(pin "2"
+			(uuid "5b5ad096-0f13-428d-a87b-66d686f4787c")
+		)
+		(pin "6"
+			(uuid "126a86be-e62e-411a-928c-dbd3e7b7ae74")
+		)
+		(pin "8"
+			(uuid "b692a45c-a709-4012-a44b-7b57adfc792a")
+		)
+		(pin "5"
+			(uuid "77d738c9-c279-4364-9d49-1ae35fa3cd31")
+		)
+		(pin "3"
+			(uuid "c460b223-8410-4411-9b8c-c88eb97acbc9")
+		)
+		(pin "12"
+			(uuid "3a4767f1-301b-4406-a6ca-a0e34d729db1")
+		)
+		(pin "11"
+			(uuid "e456b3b5-4699-498d-b07a-d76b09f62733")
+		)
+		(pin "10"
+			(uuid "d4c9f0b4-13a4-4589-a9d7-b7414faf6cbb")
+		)
+		(pin "16"
+			(uuid "f62b5b64-f312-433d-8eeb-2d0df21bf6ef")
+		)
+		(pin "7"
+			(uuid "ef3d152f-587e-48f5-b975-2a09be6ef535")
+		)
+		(pin "15"
+			(uuid "70d1a2cd-cc8f-4cd8-85fa-6c7cf966ca44")
+		)
+		(pin "14"
+			(uuid "061fddb2-2511-499a-b26c-80cab686675d")
+		)
+		(pin "13"
+			(uuid "8cc8cac6-ce1f-4613-8e04-221036a72928")
+		)
+		(pin "9"
+			(uuid "54f97724-5a1a-4e7b-8df1-19aa63ce21e1")
+		)
+		(instances
+			(project ""
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 125.73 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a04523b-4bf3-490e-adf5-34ba4eaf93c9")
+		(property "Reference" "Q6"
+			(at 121.412 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 117.094 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 125.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 125.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5a387259-b497-4c30-9d79-3570dfd6bc7a")
+		)
+		(pin "6"
+			(uuid "af631c4b-19c5-4810-8aa1-1d54518b2508")
+		)
+		(pin "3"
+			(uuid "8c2de225-4049-429e-a340-183e4dea69e7")
+		)
+		(pin "1"
+			(uuid "49c1b24f-b8c0-4fa7-8677-a020dc96f208")
+		)
+		(pin "2"
+			(uuid "3b8e3a97-487c-4921-bcbc-0c0cb908ed17")
+		)
+		(pin "5"
+			(uuid "27160def-5212-4f37-8643-fd7b48392761")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 156.21 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e6e0e7a-7f70-4c5a-a855-42c31ef12313")
+		(property "Reference" "Q11"
+			(at 151.892 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 147.574 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 156.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 156.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5a387259-b497-4c30-9d79-3570dfd6bc7a")
+		)
+		(pin "6"
+			(uuid "d7bda468-ed20-4e6c-9b47-84fa5f35f57e")
+		)
+		(pin "3"
+			(uuid "8c2de225-4049-429e-a340-183e4dea69e7")
+		)
+		(pin "1"
+			(uuid "aa93bd3f-395e-43d3-9e42-8b6df62d67bd")
+		)
+		(pin "2"
+			(uuid "1ba66e5d-68f6-4ab1-87b0-37a8dfa20084")
+		)
+		(pin "5"
+			(uuid "27160def-5212-4f37-8643-fd7b48392761")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 143.51 68.58 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4061321a-199d-41d6-a637-bd981f329ee2")
+		(property "Reference" "Q10"
+			(at 138.938 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 148.59 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 148.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "af329781-3adc-4fc9-be35-ae02f54c7451")
+		)
+		(pin "6"
+			(uuid "dd01a8b6-cb7f-4923-82cc-37172ad2b386")
+		)
+		(pin "3"
+			(uuid "a7868d88-121d-4096-b880-02d30e7883e6")
+		)
+		(pin "1"
+			(uuid "3fb45f91-b7fe-49fb-8a97-efdd97506512")
+		)
+		(pin "2"
+			(uuid "f1f2708c-f4ea-4d55-ad01-67efd2305977")
+		)
+		(pin "5"
+			(uuid "94a2b29f-f1cf-447f-a6b0-ee3d610b7dff")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q10")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 104.14 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43509ac8-2b6b-4edc-96bf-422f00e1cf8e")
+		(property "Reference" "Q9"
+			(at 108.458 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 112.776 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5a387259-b497-4c30-9d79-3570dfd6bc7b")
+		)
+		(pin "6"
+			(uuid "c3b3c834-4e1d-4ee0-ad60-890767898cee")
+		)
+		(pin "3"
+			(uuid "8c2de225-4049-429e-a340-183e4dea69e8")
+		)
+		(pin "1"
+			(uuid "73cc1cbf-7a28-421a-9389-d1fb6c1382f3")
+		)
+		(pin "2"
+			(uuid "27fb249c-ca06-4f5c-a695-f973f69ccf83")
+		)
+		(pin "5"
+			(uuid "27160def-5212-4f37-8643-fd7b48392762")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 302.26 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a6bc82e-7568-4ae7-8731-3e91c945a12c")
+		(property "Reference" "Q17"
+			(at 297.942 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 293.624 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 307.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 302.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 302.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5a387259-b497-4c30-9d79-3570dfd6bc7e")
+		)
+		(pin "6"
+			(uuid "b5340f4e-d3ab-4187-be4b-7398c6f17969")
+		)
+		(pin "3"
+			(uuid "8c2de225-4049-429e-a340-183e4dea69eb")
+		)
+		(pin "1"
+			(uuid "925f3540-fbdb-4e86-b6a1-51be2a0bbae6")
+		)
+		(pin "2"
+			(uuid "193e6246-988c-47e0-93ab-25bd2662c03e")
+		)
+		(pin "5"
+			(uuid "27160def-5212-4f37-8643-fd7b48392765")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_Array:ULN2003")
+		(at 109.22 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4be4219b-cc06-4ebd-a669-28848cb423c5")
+		(property "Reference" "U9"
+			(at 114.554 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ULN2003"
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
+			(at 111.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+			(at 109.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f4e7a66-869d-4df9-ad42-6aba2196456e")
+		)
+		(pin "4"
+			(uuid "662e7246-d293-40b9-a0b5-5f4c178f8f2c")
+		)
+		(pin "2"
+			(uuid "24b6052d-2730-45d1-93db-137f53d84f6b")
+		)
+		(pin "6"
+			(uuid "522c9de2-c32f-494e-8571-cb49785fef05")
+		)
+		(pin "8"
+			(uuid "93927146-aa33-468d-8d2b-e3d6d2cb96b5")
+		)
+		(pin "5"
+			(uuid "7a052e13-347e-40eb-9481-126281c89086")
+		)
+		(pin "3"
+			(uuid "3ccac27c-326f-4187-b5cc-4182ed5035fb")
+		)
+		(pin "12"
+			(uuid "cf6aab2a-d918-4066-a423-7300a6fabbe1")
+		)
+		(pin "11"
+			(uuid "7cf12114-fc28-4844-bdc3-c41b52b02c6c")
+		)
+		(pin "10"
+			(uuid "565abe61-9c7b-4977-a77e-5575ebe469e2")
+		)
+		(pin "16"
+			(uuid "f1cafacc-b5b7-4f63-9918-6f29de454d26")
+		)
+		(pin "7"
+			(uuid "f1b9fa31-9f1a-4811-920a-0a8c4ce3d4ad")
+		)
+		(pin "15"
+			(uuid "dfef0d9c-0f02-4fdb-aecd-238f3fc3f095")
+		)
+		(pin "14"
+			(uuid "467718b9-2834-4c9d-aa22-8682bc87e8d4")
+		)
+		(pin "13"
+			(uuid "f45d0898-3d94-4402-8e51-dda8210cd351")
+		)
+		(pin "9"
+			(uuid "c4403ad6-3de6-40a2-b61f-4ece393f242b")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 194.31 68.58 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cdf914e-edff-4b11-a99d-874712cf3b1d")
+		(property "Reference" "Q12"
+			(at 189.738 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 199.39 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 194.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 194.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8d8ca0ef-28ef-4c2f-9270-2de25ef299c0")
+		)
+		(pin "6"
+			(uuid "dd01a8b6-cb7f-4923-82cc-37172ad2b385")
+		)
+		(pin "3"
+			(uuid "8ef14ede-758e-4295-9736-b72689ae5666")
+		)
+		(pin "1"
+			(uuid "3fb45f91-b7fe-49fb-8a97-efdd97506511")
+		)
+		(pin "2"
+			(uuid "f1f2708c-f4ea-4d55-ad01-67efd2305976")
+		)
+		(pin "5"
+			(uuid "3a30603e-dab2-4aeb-bb77-142a2b3f48ce")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q12")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3906")
+		(at 99.06 38.1 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6453a840-f5da-4ea6-8624-3a601c32a34e")
+		(property "Reference" "Q8"
+			(at 94.234 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3906"
+			(at 90.678 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 104.14 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "65a7bd85-a330-4cb8-b628-be9365084d4c")
+		)
+		(pin "1"
+			(uuid "7d1a73c4-4848-4c38-a759-9938c91cf414")
+		)
+		(pin "2"
+			(uuid "8207c42a-6cc1-44e7-8a04-0a038932530e")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_Array:ULN2003")
+		(at 229.87 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66366553-c3d3-49aa-9571-93b9309a19ff")
+		(property "Reference" "U10"
+			(at 235.204 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ULN2003"
+			(at 229.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
+			(at 232.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef686137-9be2-490c-882b-09066d8f0a20")
+		)
+		(pin "4"
+			(uuid "ba499037-c554-45eb-a1c2-c1c0ec240ee1")
+		)
+		(pin "2"
+			(uuid "70bc138d-7bf6-4ea1-ad34-f45a6d1182fb")
+		)
+		(pin "6"
+			(uuid "b8ac4f23-a1e3-441e-9387-16a0544e3c14")
+		)
+		(pin "8"
+			(uuid "a569379e-98e6-446e-b142-0777bc3f8e87")
+		)
+		(pin "5"
+			(uuid "e67de7aa-cb43-4094-91fe-8d76b45d97ff")
+		)
+		(pin "3"
+			(uuid "616c16fd-6394-4a67-8500-164674bce12f")
+		)
+		(pin "12"
+			(uuid "7cf06531-9c49-4c77-9d7d-cd5af1cf1e8c")
+		)
+		(pin "11"
+			(uuid "0c128c48-c89a-4417-8768-ff128a8c8215")
+		)
+		(pin "10"
+			(uuid "ce541568-81a8-4b69-9843-990346d75b0e")
+		)
+		(pin "16"
+			(uuid "b729c18b-7d85-467c-b5b7-ea9a7b1f87f4")
+		)
+		(pin "7"
+			(uuid "b9341b07-0548-4253-bc9d-a85600299628")
+		)
+		(pin "15"
+			(uuid "5e0631fc-1abb-4ffb-9334-1e70258801ee")
+		)
+		(pin "14"
+			(uuid "bc3fe916-b633-498b-acfb-ebb5d3c4126c")
+		)
+		(pin "13"
+			(uuid "5469d45d-0bd0-4f98-b86a-ad480fec11b9")
+		)
+		(pin "9"
+			(uuid "15886deb-b745-4ff1-83ac-7fd96e8b9dd8")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 71.12 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aebc253-f7c9-4787-8a3f-96f15442eb9b")
+		(property "Reference" "#PWR010"
+			(at 71.12 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 71.12 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 71.12 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0aa532e-0271-428a-853f-9313b4e33767")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 100.33 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7097a0d8-c5da-4d1d-afda-8bc5b5c6b8a1")
+		(property "Reference" "Q5"
+			(at 96.012 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 91.694 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 105.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 100.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 100.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5a387259-b497-4c30-9d79-3570dfd6bc7a")
+		)
+		(pin "6"
+			(uuid "eafcb5ca-80cf-4866-9520-44a0487b65e8")
+		)
+		(pin "3"
+			(uuid "8c2de225-4049-429e-a340-183e4dea69e7")
+		)
+		(pin "1"
+			(uuid "6fd44e48-d1e5-4e53-b5c5-88b26f7d450c")
+		)
+		(pin "2"
+			(uuid "db4f142c-8e4f-4e27-bc18-c70c498de915")
+		)
+		(pin "5"
+			(uuid "27160def-5212-4f37-8643-fd7b48392761")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 138.43 137.16 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bdf7f31-4f0b-438a-bbdb-002432245e63")
+		(property "Reference" "Q6"
+			(at 133.858 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 143.51 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 143.51 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 138.43 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 138.43 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "750ddf59-1de8-49ba-9090-147e8a405516")
+		)
+		(pin "6"
+			(uuid "dd01a8b6-cb7f-4923-82cc-37172ad2b385")
+		)
+		(pin "3"
+			(uuid "35b7efc2-9dd9-474d-a0b2-4f0b10a3a171")
+		)
+		(pin "1"
+			(uuid "3fb45f91-b7fe-49fb-8a97-efdd97506511")
+		)
+		(pin "2"
+			(uuid "f1f2708c-f4ea-4d55-ad01-67efd2305976")
+		)
+		(pin "5"
+			(uuid "3c032726-be8e-4462-8340-43d2349a1588")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 38.1 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d7b2f17-578b-44d7-a048-1e5ee310584d")
+		(property "Reference" "R1"
+			(at 40.64 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 40.64 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.116 166.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 38.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85c258fe-22e1-44f2-992b-b100e83ae148")
+		)
+		(pin "2"
+			(uuid "b1274f86-3fa0-499b-b01f-51bd519c90bd")
+		)
+		(instances
+			(project ""
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 163.83 137.16 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dbe3a7f-5872-4402-ab6e-d78bfc58d01c")
+		(property "Reference" "Q7"
+			(at 159.258 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 168.91 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 168.91 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 163.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 163.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "92c441f7-fae9-4034-98ad-5ad535e25149")
+		)
+		(pin "6"
+			(uuid "dd01a8b6-cb7f-4923-82cc-37172ad2b385")
+		)
+		(pin "3"
+			(uuid "5706d196-3617-403e-9700-407ea399dfdb")
+		)
+		(pin "1"
+			(uuid "3fb45f91-b7fe-49fb-8a97-efdd97506511")
+		)
+		(pin "2"
+			(uuid "f1f2708c-f4ea-4d55-ad01-67efd2305976")
+		)
+		(pin "5"
+			(uuid "6d3ddc9a-921a-4559-b868-1054f2670202")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3904")
+		(at 35.56 144.78 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8082a549-cd9d-4a92-8f52-9eeb061b1fd1")
+		(property "Reference" "Q1"
+			(at 31.75 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3904"
+			(at 26.162 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 40.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30088.pdf"
+			(at 35.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
+			(at 35.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8dabe416-a2ff-4742-b8b9-315750a8f01e")
+		)
+		(pin "3"
+			(uuid "e26ce9d5-51f4-48fe-8318-b67016b3084d")
+		)
+		(pin "5"
+			(uuid "d7b81060-65b4-4f3a-bfeb-77106003f731")
+		)
+		(pin "4"
+			(uuid "37823418-929c-40ab-81ce-81449c9d599a")
+		)
+		(pin "6"
+			(uuid "3696dc69-f054-442f-8058-795e3052dc3b")
+		)
+		(pin "1"
+			(uuid "e6fe72f8-7afe-45a1-a769-6cd276ad4a74")
+		)
+		(instances
+			(project ""
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80850752-dd11-4cfd-a6c8-b5672e5ef086")
+		(property "Reference" "#PWR07"
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8850f5af-0074-44bb-aa3a-8ff31acf3da5")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 181.61 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80fb5876-9b8d-4b43-a65e-fbdae90ff48b")
+		(property "Reference" "Q12"
+			(at 177.292 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 172.974 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 181.61 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 181.61 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5a387259-b497-4c30-9d79-3570dfd6bc7e")
+		)
+		(pin "6"
+			(uuid "b84e8f4a-f72c-485c-b7a9-dc5ff4cbdb2f")
+		)
+		(pin "3"
+			(uuid "8c2de225-4049-429e-a340-183e4dea69eb")
+		)
+		(pin "1"
+			(uuid "f0f869fd-154c-4e02-83ce-63ca501cfa3b")
+		)
+		(pin "2"
+			(uuid "279a880b-8b5a-469f-a5a5-e1db045fb0c7")
+		)
+		(pin "5"
+			(uuid "27160def-5212-4f37-8643-fd7b48392765")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 73.66 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8542e95c-0318-4ef9-ae52-b03dc6a1299a")
+		(property "Reference" "Q4"
+			(at 77.978 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 82.296 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 68.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5a387259-b497-4c30-9d79-3570dfd6bc7a")
+		)
+		(pin "6"
+			(uuid "dd01a8b6-cb7f-4923-82cc-37172ad2b385")
+		)
+		(pin "3"
+			(uuid "8c2de225-4049-429e-a340-183e4dea69e7")
+		)
+		(pin "1"
+			(uuid "3fb45f91-b7fe-49fb-8a97-efdd97506511")
+		)
+		(pin "2"
+			(uuid "f1f2708c-f4ea-4d55-ad01-67efd2305976")
+		)
+		(pin "5"
+			(uuid "27160def-5212-4f37-8643-fd7b48392761")
+		)
+		(instances
+			(project ""
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 151.13 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a4f92c2-ceb7-467c-8d6f-a58f21109e66")
+		(property "Reference" "Q7"
+			(at 146.812 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 142.494 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 156.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5a387259-b497-4c30-9d79-3570dfd6bc7a")
+		)
+		(pin "6"
+			(uuid "501395a4-ebcc-48d6-a819-54501218d30d")
+		)
+		(pin "3"
+			(uuid "8c2de225-4049-429e-a340-183e4dea69e7")
+		)
+		(pin "1"
+			(uuid "a8ac24b9-77f1-4d2e-a025-68349c6fb7f5")
+		)
+		(pin "2"
+			(uuid "d5d6ed7d-8909-4e68-a341-9f58ff3644ad")
+		)
+		(pin "5"
+			(uuid "27160def-5212-4f37-8643-fd7b48392761")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3904")
+		(at 26.67 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90fe51fd-4b53-4b3c-a5fd-05234c7e88be")
+		(property "Reference" "Q1"
+			(at 30.734 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3904"
+			(at 35.052 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 21.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30088.pdf"
+			(at 26.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
+			(at 26.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8dabe416-a2ff-4742-b8b9-315750a8f01e")
+		)
+		(pin "3"
+			(uuid "e26ce9d5-51f4-48fe-8318-b67016b3084d")
+		)
+		(pin "5"
+			(uuid "d7b81060-65b4-4f3a-bfeb-77106003f731")
+		)
+		(pin "4"
+			(uuid "37823418-929c-40ab-81ce-81449c9d599a")
+		)
+		(pin "6"
+			(uuid "3696dc69-f054-442f-8058-795e3052dc3b")
+		)
+		(pin "1"
+			(uuid "e6fe72f8-7afe-45a1-a769-6cd276ad4a74")
+		)
+		(instances
+			(project ""
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 24.13 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "998a52eb-07b4-47b4-a600-e3b39c42c2b2")
+		(property "Reference" "#PWR08"
+			(at 24.13 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 24.13 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 24.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "383174cd-7866-40f3-9fa4-38079681bff8")
+		)
+		(instances
+			(project ""
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 24.13 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "998b2c8f-d280-419a-9cc8-dfeec13aceb5")
+		(property "Reference" "R2"
+			(at 26.67 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 26.67 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 23.114 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c787754-45a6-4504-995c-c5910ffe6cf4")
+		)
+		(pin "2"
+			(uuid "08c920e9-c7a2-4b4c-af86-f291afa3fae8")
+		)
+		(instances
+			(project ""
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 184.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5bd7e71-15ef-4037-8b32-29f0f7e8ff28")
+		(property "Reference" "#PWR03"
+			(at 24.13 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33853cca-e9cb-46c6-a647-b028ab775d46")
+		)
+		(instances
+			(project ""
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 233.68 57.15 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab268c8f-7313-42ba-ba82-744fb06e2fb0")
+		(property "Reference" "Q14"
+			(at 229.108 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 238.76 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 238.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 233.68 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 233.68 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f2f7ad46-9ac2-4d34-b689-7a630f479d53")
+		)
+		(pin "6"
+			(uuid "dd01a8b6-cb7f-4923-82cc-37172ad2b388")
+		)
+		(pin "3"
+			(uuid "7caafe7d-5927-49cd-aae8-3039c7205483")
+		)
+		(pin "1"
+			(uuid "3fb45f91-b7fe-49fb-8a97-efdd97506514")
+		)
+		(pin "2"
+			(uuid "f1f2708c-f4ea-4d55-ad01-67efd2305979")
+		)
+		(pin "5"
+			(uuid "49175c40-3519-4b51-a840-7fe08cd95047")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q14")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 289.56 68.58 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc6fd482-865d-48bb-8cc0-60a4725a0928")
+		(property "Reference" "Q16"
+			(at 284.988 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 294.64 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 294.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 289.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 289.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e699630f-f31b-460c-a8cd-d1d71b7edcc3")
+		)
+		(pin "6"
+			(uuid "dd01a8b6-cb7f-4923-82cc-37172ad2b389")
+		)
+		(pin "3"
+			(uuid "1fa77449-27f8-4d60-8776-0dbb662eef3b")
+		)
+		(pin "1"
+			(uuid "3fb45f91-b7fe-49fb-8a97-efdd97506515")
+		)
+		(pin "2"
+			(uuid "f1f2708c-f4ea-4d55-ad01-67efd230597a")
+		)
+		(pin "5"
+			(uuid "bf736d64-4545-4ba2-b16c-63f802a98776")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q16")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 251.46 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf335e3f-1ee6-49a7-bb29-ee354e7969fc")
+		(property "Reference" "Q15"
+			(at 247.142 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 242.824 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 256.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5a387259-b497-4c30-9d79-3570dfd6bc7c")
+		)
+		(pin "6"
+			(uuid "c50b829e-5665-4dcf-9522-ec23732fc437")
+		)
+		(pin "3"
+			(uuid "8c2de225-4049-429e-a340-183e4dea69e9")
+		)
+		(pin "1"
+			(uuid "8381cee9-6a95-4dfc-a25a-604ed17ac15e")
+		)
+		(pin "2"
+			(uuid "9ab729e9-3a1a-4977-86d8-bb2c50b6ed17")
+		)
+		(pin "5"
+			(uuid "27160def-5212-4f37-8643-fd7b48392763")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 184.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c011890a-79a5-43c3-9ebc-54e48ddb82ed")
+		(property "Reference" "#PWR04"
+			(at 38.1 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73af6357-9314-4d85-921d-60d28ebcbef6")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 314.96 68.58 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c96096a8-2314-48e2-82ac-6f4bcacda2af")
+		(property "Reference" "Q17"
+			(at 310.388 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 320.04 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 320.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 314.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 314.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "50f4deb5-91f8-4f37-bfbc-9847f69c13b7")
+		)
+		(pin "6"
+			(uuid "dd01a8b6-cb7f-4923-82cc-37172ad2b385")
+		)
+		(pin "3"
+			(uuid "acaa1dc6-73b6-468b-9bb5-222f7e222df8")
+		)
+		(pin "1"
+			(uuid "3fb45f91-b7fe-49fb-8a97-efdd97506511")
+		)
+		(pin "2"
+			(uuid "f1f2708c-f4ea-4d55-ad01-67efd2305976")
+		)
+		(pin "5"
+			(uuid "b1324551-c8ca-473c-9b5a-6715bb260d08")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q17")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3906")
+		(at 168.91 68.58 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d09842d9-a4f4-4d18-a52d-0c3d49f9b324")
+		(property "Reference" "Q11"
+			(at 164.338 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3906"
+			(at 173.99 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7fec9fee-ee9c-44cc-9883-6f53d73dc98a")
+		)
+		(pin "6"
+			(uuid "dd01a8b6-cb7f-4923-82cc-37172ad2b389")
+		)
+		(pin "3"
+			(uuid "fc5e2e20-ac81-4241-8e95-0f3043df4005")
+		)
+		(pin "1"
+			(uuid "3fb45f91-b7fe-49fb-8a97-efdd97506515")
+		)
+		(pin "2"
+			(uuid "f1f2708c-f4ea-4d55-ad01-67efd230597a")
+		)
+		(pin "5"
+			(uuid "7e52d9b7-1e13-4369-9481-f82148cd7e1d")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "Q11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 236.22 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1be5c61-7b40-4b73-a754-0df130a94716")
+		(property "Reference" "#PWR016"
+			(at 236.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 236.22 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 236.22 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeaadccd-2d8d-4f84-aaf1-ee2bd5a0d763")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 184.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb7f1546-cc4f-4f91-a208-8a7e9481ea43")
+		(property "Reference" "#PWR06"
+			(at 78.74 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34ae1a27-e04e-47da-8a77-003f54458841")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 38.1 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f644173e-17d7-4077-a4d7-8b84ca1345cd")
+		(property "Reference" "#PWR09"
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 38.1 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60828a34-4099-4227-a87c-b54d1b14a5e3")
+		)
+		(instances
+			(project "tt5_led_clock"
+				(path "/ce3b318e-afb2-4750-a1c6-036b72264fed/6faa4e8f-db2d-4dda-9706-13c22c21e44b"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
